@@ -1,0 +1,80 @@
+.navbar{
+	background-color: white!important;
+}
+
+.navbar-brand
+{
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #6aa5a7;
+	}
+
+.nav-text{
+	color:white!important;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.footer{
+	text-align: center;
+	background-color: Darkgray;
+	color: white;
+}
+
+/* body background*/
+body{
+    background-color: lightgrey;
+}
+
+.col-md-6{
+	    background-color: white;
+}
+
+.col-md-12{
+	    background-color: white;
+}
+
+/* Thick Blue border */
+.hrline {
+  border: 5px solid #6aa5a7;
+}
+
+h3{
+	color:#6aa5a7;
+	font-family: Verdana, Geneva, sans-serif;
+	display: block;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+h4{
+	color:#6aa5a7;
+	font-family: Verdana, Geneva, sans-serif;
+	display: block;
+	font-size: 90%;
+	font-weight: bold;
+	text-align: center
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+  vertical-align: center;
+}
+
+p{
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 990px) {
+    .navbar.bg-light{
+        background-color:  #6aa5a7!important;    
+    }
+	
+	.navbar-toggler{
+		
+	}
+}
